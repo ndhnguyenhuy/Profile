@@ -1,0 +1,108 @@
+@media screen and (max-width: 576px) {
+  .info {
+    height: auto;
+    margin-left: 10px;
+    width: 100%;
+  }
+  .me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .me::after {
+    display: none;
+  }
+  .info-name {
+    text-align: center;
+  }
+  .address {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+  }
+  .address .text {
+    font-size: 16px;
+  }
+  .introduce {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  .introduce-over {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(248, 214, 236, 0.726);
+    z-index: 100;
+    border-radius: 0;
+  }
+  .introduce-heading {
+    text-align: center;
+  }
+  .navigation {
+    width: 90%;
+  }
+  .edu-title::after,
+  .exp-title::after,
+  .edu-heading::after,
+  .exp-skils-heading::before {
+    content: "";
+    position: absolute;
+    top: 28%;
+    left: -20px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgba(0, 102, 255, 0.8);
+    box-shadow: 0 0 0 2px rgb(0 102 255 / 60%), 0 0 0 6px rgb(0 102 255 / 40%),
+      0 0 0 10px rgb(0 102 255 / 20%);
+  }
+  .content-box1::after {
+    left: -18px;
+    height: 68%;
+  }
+  .content-box2::after {
+    left: -18px;
+    height: 42%;
+  }
+  .future-heading2::before {
+    left: -18px;
+  }
+  .exp-skils-container {
+    flex-wrap: wrap;
+  }
+  .skils-img {
+    width: 75px;
+  }
+  .exam-box {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .content-me-para {
+    margin: 10px;
+    line-height: 25px;
+  }
+  .project-box {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content-box {
+    margin: 0;
+  }
+  .exp-title {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1200px) {
+}
